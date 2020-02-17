@@ -3,25 +3,60 @@
 <head>
 	<title>instagram component</title>
 	<link rel="stylesheet" type="text/css" href="./component.css">
-	<link rel="stylesheet" type="text/css" href="../css/all.css">
+	<link rel="stylesheet" type="text/css" href="../fontawesome/css/all.min.css">
 </head>
 <body>
 	<div class="avt-and-name">
 		<div class="avt"></div>
 		<div class="name">
-			<div class="username">quy.pham.2k</div>
+			<a class="username" href="#">quy.pham.2k</a>
 			<div class="main-name">Quý Phạm</div>
 		</div>
 	</div>
 	<div class="status">
-		<div class="avt-and-name">
+		<div class="avt-and-name poster">
 			<div class="avt"></div>
-				<div class="name">
-					<div class="username">quy.pham.2k</div>
-				</div>
+			<div class="name">
+				<div class="username">quy.pham.2k</div>
+			</div>
+			<i class="fas fa-ellipsis-h"></i>
 		</div>
 		<div class="image"></div>
-		<div class="interactive"></div>
+		<div class="interactive">
+			<div class="icon">
+				<i class="far fa-heart fa-lg"></i>
+				<i class="far fa-comment fa-lg"></i>
+				<i class="far fa-share-square fa-lg"></i>
+				<i class="far fa-bookmark fa-lg" style="float: right"></i>
+			</div>
+			<div class="liked">
+				<div class="avt-and-name">
+					<div class="avt"></div>
+					<div class="name">
+						<a href="#">quy.pham.2k</a>
+						<span>và</span>
+						<a href="#">100 người khác</a>
+						<span>đã thích</span>
+					</div>
+				</div>
+			</div>
+			<div class="title">
+					<a href="#">quy.pham.2k</a>
+					<span>Đời hư ảo đưa em vào cơn mê</span>
+			</div>
+			<div class="comments">
+				<div class="comment">
+					<a href="#">meo.meo</a>
+					<span>handsome boy <3</span>
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="post-time">2 phút trước</div>
+		</div>
+		<div class="write-comment">
+			<input type="text" name="write-comment" placeholder="Thêm bình luận...">
+			<button>Đăng</button>
+		</div>
 	</div>
 </body>
 </html>

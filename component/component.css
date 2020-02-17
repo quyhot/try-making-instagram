@@ -14,16 +14,19 @@ body{
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
-	height: 50px;
-	width: 50px;
-	margin-left: 5px;
+	height: 3em;
+	width: 3em;
+
 }
 
 .username{
-	margin-bottom: 3px;
+	text-decoration: none;
+	color: #111;
+	font-weight: 650;
 }
 
 .main-name{
+	margin-top: 3px;
 	font-size: 12px;
 	color: #888;
 }
@@ -31,4 +34,91 @@ body{
 .name{
 	padding: 10px;
 	flex-grow: 1;
+}
+
+.image{
+	background-image: url('https://picsum.photos/800/500');
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 31rem;
+	display: flex;
+	align-items: stretch;
+}	
+
+.status a{
+	text-decoration: none;
+	font-weight: 650;
+	color: #111;
+}
+
+.status .avt-and-name{
+	font-size: 13px;
+	font-weight: 20;
+}
+
+.status{
+	background-color: #FFF;
+	border: 1px solid #BBB;
+}
+
+.poster, .interactive{
+	padding: 10px 12px;
+}
+
+.icon i{
+	padding: 5px;
+}
+
+.title, .comments, .post-time{
+	font-size: 13px;
+	font-weight: 20;
+	padding: 5px 5px;
+}
+
+.liked .avt{
+	font-size: 10px;
+}
+
+.comments i{
+	float: right;
+}
+
+.post-time{
+	font-size: 12px;
+	color: #AAA;
+}
+
+.write-comment{
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #DDD;
+	height: 3rem;
+	padding: 0 15px;
+}
+
+.write-comment input{
+	flex-grow: 1;
+	border: 0;
+}
+
+.write-comment input:focus{
+	outline: 0;     
+	outline-style:none;     
+	outline-width:0;
+}
+
+.write-comment button{
+	border: 0;
+	background-color: #FFF;
+	color: #4b4be8;
+	font-weight: 700;
+}
+
+.write-comment button:active,
+.write-comment button:focus{
+	outline: 0;     
+	outline-style:none;     
+	outline-width:0;
 }
