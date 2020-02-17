@@ -114,6 +114,7 @@ body{
 	background-color: #FFF;
 	color: #4b4be8;
 	font-weight: 700;
+	opacity: 0.5;
 }
 
 .write-comment button:active,
@@ -121,4 +122,7 @@ body{
 	outline: 0;     
 	outline-style:none;     
 	outline-width:0;
+	opacity: 1;
 }
+
+.write
