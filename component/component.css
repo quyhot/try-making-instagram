@@ -5,9 +5,7 @@ body{
 
 .avt-and-name{
 	display: flex;
-	align-items: center;
-	background-color: #EEE;
-}
+	align-items: center;}
 
 .avt{
 	background-image: url('../images/avt.jpg');
@@ -126,4 +124,3 @@ body{
 	opacity: 1;
 }
 
-.write
