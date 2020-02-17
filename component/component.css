@@ -6,7 +6,7 @@ body{
 .avt-and-name{
 	display: flex;
 	align-items: center;
-	background-color: white;
+	background-color: #EEE;
 }
 
 .avt{
@@ -60,7 +60,8 @@ body{
 
 .status{
 	background-color: #FFF;
-	border: 1px solid #BBB;
+	border: 1px solid #DDD;
+	border-radius: 5px;
 }
 
 .poster, .interactive{
