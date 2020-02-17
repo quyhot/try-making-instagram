@@ -1,0 +1,74 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background-color: #fafafa;
+	color: #111;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 65% 35%;
+}
+
+.header{
+	grid-column: 1/3;
+	padding: 20px 200px;
+	border-bottom: 1px solid #CCC;
+	display: flex;
+	align-items: center;
+}
+
+.icon-header i{
+	padding-left: 1rem;
+	font-size: 150%;
+}
+
+.header a{
+	font-size: 150%;
+	text-decoration: none;
+	font-family: 'Merienda One', cursive;
+	color: #111;
+	padding-right: 0.7rem;
+}
+
+.instagram-text{
+	padding-left: 0.7rem;
+	border-left: 1px solid;
+}
+
+.search{
+	flex-grow: 1;
+	transform: translateX(25%);
+}
+
+.type-to-search{
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	padding: 5px;
+	position: relative;
+}
+
+.type-to-search::placeholder{
+	text-align: center;
+	color: #AAA;
+}
+
+.type-to-search:focus{
+	outline: 0;     
+	outline-style: none;     
+	outline-width: 0;
+}
+
+.type-to-search::focus i{
+	opacity: 0;
+}
+
+.search i{
+	position: absolute;
+	left: 3.5em;
+	top: 0.5rem;
+	font-size: 0.8rem;
+	color: #AAA;
+}

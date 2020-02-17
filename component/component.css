@@ -105,8 +105,8 @@ body{
 
 .write-comment input:focus{
 	outline: 0;     
-	outline-style:none;     
-	outline-width:0;
+	outline-style: none;     
+	outline-width: 0;
 }
 
 .write-comment button{
